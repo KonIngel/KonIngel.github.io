@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>KonIngel Mostafa Kamal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.js"></script>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Merienda:700');
+  @import url('https://fonts.googleapis.com/css?family=Pacifico');
+  body {
+  position: relative;
+}
+
+  .navbar-brand{
+    font-family: 'Pacifico', cursive;
+    font-size : 2rem;
+
+  }
+  .navbar-custom{
+    width: 100%
+  }
+  form{
+    margin: 0 auto;
+    text-align: center;
+ }
+.form-control{
+  margin: 0 auto;
+  width: 50%;
+}
+.btn:focus, .btn:hover {
+    text-decoration: none;
+    color: #0f7d32;
+    background-color: #f7ffb2;
+}
+
+.Contact{
+  font-family: 'Merienda', cursive;
+  height: 90vh;
+  height: 100vh;
+  padding-top: 9%;
+}
+.footer{
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  height: auto;
+}
+.pd_row{
+      padding-top: 9px;
+      color: #ff5400;
+      text-shadow: -1px 2px 7px black;
+      font-family: 'Merienda', cursive;
+}
+.pd_row2{
+     color: #36de82;
+     font-family: 'Merienda', cursive;
+     font-size: 1rem;
+}
+
+
+
+  @media (max-width: 575.98px) {
+    .bg-primary{
+        background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);}
+    .section1 {
+      height: 400px;
+      width: 100%;
+      background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+      margin: auto;
+      text-align: center;
+    }
+
+
+    .section1 h1 {
+      font-size: 1.4rem;
+      font-family: 'Pacifico', cursive;
+      text-shadow: 1px -2px 0px black;
+      line-height: 400px;
+      height: 211px;
+    }
+    .section1 h6{
+      font-size: 1.1rem;
+      font-family: 'Merienda', cursive;
+
+  }
+    .navbar-brand{
+      color: #f5c536!important;
+
+    }
+    .navbar-custom .nav-item.active .nav-link,
+    .navbar-custom .nav-item:hover .nav-link , .active {
+          color: #f6fffe;
+          border-bottom: 4px solid #1bd29f;
+          border-radius: 11px;
+          transition: all .4s ease;
+
+    }
+    #collapse{
+        text-align: center;
+    }
+    .navbar-nav{
+      display: inline-block;
+      float: none;
+      padding: 8px 0px;
+    }
+    li{
+      display: inline-block;
+      padding: 0px 20px 0px 10px;
+      font-size: 1.2rem;
+    }
+    .nav-link{
+      font-family: 'Merienda', cursive;
+      font-size: 1.25rem
+
+    }
+    .section2{
+          background-color: #44107a;
+      width: 100%;
+      height:100vh;
+    }
+    .section2 h1{
+      color: #df9eff;
+    }
+    .blockquote-footer{
+          color: #b8c1ca!important;
+    }
+    .group_progress{
+      margin: 0 auto;
+      width: 90%;
+      padding-bottom: 10px;
+    }
+
+
+  }
+  .Contact{
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+    height: 114vh!important;
+  }
+  .pd_row2 , .pd_row2 a{
+    color: #36de82;
+    font-family: 'Merienda', cursive;
+    font-size: .6rem;
+
+  }
+  .pd_row2 a{
+    text-decoration: underline;
+  }
+  .pd_row {
+    padding-top: 8px;
+    color: #ff5400;
+    text-shadow: -1px 2px 7px black;
+    font-family: 'Merienda', cursive;
+}
+
+
+@media(min-width: 576px) {
+  .section1 {
+    margin-left: auto!important;
+    margin-right: auto!important;
+    margin: auto;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)!important;
+    margin-top: 67px;
+
+  }
+
+  .section1 h1 {
+    height: 215px;
+    line-height: 344px;
+    font-family: 'Pacifico', cursive;
+    color: #730196;
+    text-shadow: 2px -1px 20px #10ffc8;
+    font-size: 3.1rem!important;
+    }
+  .section1 h6{
+    font-size: 1.2rem;
+    text-shadow: -1px 0px 10px #581596;
+}
+  .fixedTop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+  .navbar-custom {
+      background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%)!important;
+      width: 100%!important;
+      height: 67px!important;
+  }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+      color: black;
+      transition: all .3s ease-in-out;
+
+  }
+  .navbar-light .navbar-nav .nav-link {
+      color: rgba(0,0,0);
+  }
+
+  .navbar-custom .nav-item.active .nav-link,
+  .navbar-custom .nav-item:hover .nav-link , .active  {
+        color: #f6fffe;
+        background-color: #30a498;
+        border-radius: 7px;
+        transition: all .4s ease;
+
+  }
+
+
+  .nav-link{
+    font-family: 'Merienda', cursive;
+    font-size: 1.5rem;
+    margin: auto 18px;
+    padding: .99rem 1rem;
+    transition: all .3s ease-in-out;
+  }
+  .navbar-brand:hover{
+    color: #f5c536!important;
+    transition: all .2s ease-in-out;
+  }
+  .nav-shadow{
+      opacity: .9;
+      box-shadow: 0px 0px 12px black;
+  }
+  .color{
+    color: #f5c536!important;
+
+  }
+  .section2{
+    background-color: #44107a;
+    width: 100%;
+    height:100vh;
+  }
+  .section2 h1{
+    color: #e86515;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    margin-bottom: 30px;
+    padding-top: 77px;
+    font-size: 3rem;
+  }
+  .progress{
+    width: 70%
+  }
+  .group_progress{
+    padding-left: 1rem;
+    padding-bottom: 10px;
+  }
+  .progress-bar{
+    font-family: 'Merienda', cursive;
+  }
+  .centre_2{
+        padding-left: 48px;
+        background-color:#4128a7!important;
+
+  }
+  .centre_3{
+    padding-left: 102px;
+
+  }
+  .centre_4{
+    padding-left: 168px;
+  }
+  .Contact{
+    background-color: #f5dcb0!important;
+    height: 100vh;
+    padding-top: 9%;
+  }
+
+  .pd_row2 , .pd_row2 a{
+    color: #36de82;
+    font-family: 'Merienda', cursive;
+    font-size: 1rem;
+
+  }
+  .pd_row2 a{
+    text-decoration: underline;
+  }
+  .pd_row {
+    padding-top: 8px;
+    color: #ff5400;
+    text-shadow: -1px 2px 7px black;
+    font-family: 'Merienda', cursive;
+}
+
+}
+@media (min-width : 1200px) {
+  .blockquote-footer {
+     display: block;
+    font-size: 89%;
+     color: #6c757d;
+}
+.section1 h1 {
+    height: 215px;
+    line-height: 344px;
+    font-family: 'Pacifico', cursive;
+    color: #730196;
+    text-shadow: 2px -1px 20px #10ffc8;
+    font-size: 4.1rem!important;
+}
+.section1 h6{
+      font-size: 2rem;
+}
+.form-group {
+    font-size: 2rem;
+}
+.pd_row {
+    font-size: 2rem;
+}
+.pd_row2 {
+
+    font-size: 1.5rem;
+}
+.section2 h1 {
+    font-size: 4rem;
+}
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
+    font-size: 2.3rem;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 2rem;
+}
+.nav-link {
+    padding: 0.6rem 1rem;
+}
+.progress{
+  height: 30px;
+}
+.Contact{
+  height: 90vh;
+
+}
+
+
+}
+
+
+
+
+
+  </style>
+
+</head>
+<body data-spy="scroll" data-target="#collapse" data-offset="65">
+
+  <nav id="nav-shadow" class="navbar navbar-expand-sm  navbar-custom  fixedTop bg-primary  navbar-light " >
+    <a href="#section1"  id="color" class="navbar-brand">KonIngel </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div id ="collapse" class="collapse navbar-collapse  text-sm-right"  >
+    <ul class="navbar-nav ml-sm-auto">
+      <li class="nav-item ">
+        <a class="nav-link  " href="#section1">Home</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link  " href="#section2">Skills</a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link " href="#section3">Contact</a>
+      </li>
+    </ul>
+</div>
+
+  </nav>
+  <div id="section1" class="section1">
+
+     <h1 class="">Full Stack Web Developer</h1>
+     <h6><i>Hire me ^_^ </i></h6>
+
+
+
+
+  </div>
+
+  <div id="section2" class="section2">
+    <div class="content_of_section2">
+    <h1  id ="info" class="col-12">Info</h1>
+    <blockquote class="blockquote col-12">
+    <p class="blockquote-footer">My Name is Mostafa Kamal , I was born in 14-05-2001 , I'm still Student
+         I am Full Stack Web Developer , I've learned Programming in 2017  </p>
+       </blockquote>
+       </div>
+       <div class="group_progress justify-content-center">
+
+       <div class="progress">
+           <div class="progress-bar bg-success progress-bar-striped progress-bar-animated centre_1" style="width:100%">HTML , CSS 100%</div>
+         </div>
+          </div>
+          <div class="group_progress justify-content-center">
+
+          <div class="progress">
+              <div class="progress-bar bg-info progress-bar-striped progress-bar-animated centre_2" style="width:90%">SQL 90%</div>
+            </div>
+             </div>
+             <div class="group_progress justify-content-center">
+
+             <div class="progress">
+                 <div class="progress-bar progress-bar-striped progress-bar-animated centre_3" style="width:80%">Python 80%</div>
+               </div>
+                </div>
+                <div class="group_progress justify-content-center">
+
+                <div class="progress">
+                    <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated centre_4" style="width:70%">JavaScript 70%</div>
+                  </div>
+                   </div>
+
+  </div>
+
+
+<div id="section3" class="Contact section3">
+  <form>
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="form-group">
+      <label for="Textarea">Content:</label>
+      <textarea class="form-control" id="Textarea" rows="3" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+
+
+</div>
+<footer class="footer">
+
+
+<div class="container">
+  <div class="row align-items-center">
+
+    <div class="col pd_row">
+      phone
+    </div>
+    <div class="col pd_row">
+      E-mail
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col pd_row2">
+      +20 01020374031
+    </div>
+    <div class="col pd_row2">
+      <a class="u-email" href="mailto:Mostafa_Kamal@protonmail.com">Mostafa_Kamal@protonmail.com</a>
+    </div>
+  </div>
+</div>
+
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+
+    $('html, body').animate({
+      scrollTop: $($.attr(this, 'href')).offset().top
+    }, 800);
+});
+function colored(){
+  var nav = window.scrollY;
+  if (nav > 0){
+    $("#nav-shadow").addClass("nav-shadow");
+    $("#color").addClass("color");
+
+
+  }
+  else {
+    $("#nav-shadow").removeClass("nav-shadow");
+    $("#color").removeClass("color");
+  }
+};
+window.addEventListener('scroll',colored);
+console.log(window.sr)
+
+
+
+
+</script>
+
+
+</body>
+</html>
